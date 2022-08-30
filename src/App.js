@@ -4,6 +4,7 @@ import './App.css';
 import GreetingF from './components/pure/greetingF';
 import TaskListComponent from './components/container/task_list';
 import ContactoAComponents from './components/pure/contactoA';
+import Ejemplo1 from './hooks/Ejemplo1';
 
 function App() {
   return (
@@ -14,7 +15,9 @@ function App() {
         {/* <Greeting name="Martin"></Greeting> */}
         {/* <GreetingF name="ENDER"></GreetingF> */}
         {/* <TaskListComponent></TaskListComponent> */}
-        <ContactoAComponents></ContactoAComponents>
+        {/* <ContactoAComponents></ContactoAComponents> */}
+        {/* Ejemplo de uso de HOOKS */}
+        <Ejemplo1></Ejemplo1>
       </header>
     </div>
   );
