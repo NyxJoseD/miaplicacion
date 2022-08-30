@@ -5,6 +5,8 @@ import GreetingF from './components/pure/greetingF';
 import TaskListComponent from './components/container/task_list';
 import ContactoAComponents from './components/pure/contactoA';
 import Ejemplo1 from './hooks/Ejemplo1';
+import Ejemplo2 from './hooks/Ejemplo2';
+import Ejemplo3 from './hooks/Ejemplo3';
 
 function App() {
   return (
@@ -18,6 +20,7 @@ function App() {
         {/* <ContactoAComponents></ContactoAComponents> */}
         {/* Ejemplo de uso de HOOKS */}
         <Ejemplo1></Ejemplo1>
+        <miComponenteConContexto></miComponenteConContexto>
       </header>
     </div>
   );
